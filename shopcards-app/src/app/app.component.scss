@@ -2,11 +2,9 @@
     flex: 1 1 auto;
 }
 
-.mat-expansion-panel-header {
-    background-color: var(--mdc-checkbox-selected-icon-color);
-    --mat-expansion-container-background-color: var(--mdc-checkbox-selected-icon-color);
+.mat-expansion-panel-header.mat-expanded:focus, .mat-expansion-panel-header.mat-expanded:hover {
+    background: var(--mdc-checkbox-selected-icon-color);
 }
-
 
 .card {
     display: flex;
