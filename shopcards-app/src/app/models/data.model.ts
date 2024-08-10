@@ -11,5 +11,6 @@ export enum Country {
     OTHER = 'other',
     GREECE = 'Greece', 
     FRANCE = 'France',
-    ITALY = 'Italy'
+    ITALY = 'Italy',
+    RUSSIA = 'Russia'
 }
