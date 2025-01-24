@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './services/data.service';
-import { Card } from './models/data.model';
+import { Card, Country } from './models/data.model';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,14 @@ import { Card } from './models/data.model';
 })
 export class AppComponent implements OnInit {
   cards: Card[] = [];
+  countries: Country[] = [
+    Country.ALL,
+    Country.GREECE,
+    Country.FRANCE,
+    Country.TURKEY,
+    Country.ITALY,
+    Country.RUSSIA
+  ]
 
   constructor(private dataService: DataService) {}
 

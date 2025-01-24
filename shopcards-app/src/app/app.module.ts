@@ -7,6 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatMenuModule } from '@angular/material/menu';
 import { CodeFormat } from './pipes/code-format.pipe';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { CodeFormat } from './pipes/code-format.pipe';
     MatButtonModule,
     MatIconModule,
     MatExpansionModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent],

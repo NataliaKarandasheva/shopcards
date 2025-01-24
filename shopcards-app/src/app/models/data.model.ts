@@ -8,9 +8,10 @@ export interface Card {
 }
 
 export enum Country {
-    OTHER = 'other',
+    ALL = 'all',
     GREECE = 'Greece', 
     FRANCE = 'France',
     ITALY = 'Italy',
-    RUSSIA = 'Russia'
+    RUSSIA = 'Russia',
+    TURKEY = 'Turkey'
 }

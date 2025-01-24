@@ -51,7 +51,7 @@ export class DataService {
       img: 'migros',
       title: 'Migros',
       code: '05353894600',
-      country: Country.OTHER
+      country: Country.TURKEY
     },
     {
       img: 'hm',
