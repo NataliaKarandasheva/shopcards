@@ -64,7 +64,12 @@ export class DataService {
       title: 'Public',
       code: '2801419593',
       country: Country.GREECE
-    }
+    },
+    {
+      img: 'lidl_old',
+      title: 'Lidl Old version',
+      code: '77300007009584686',
+      country: Country.GREECE,
+    },
   ];
-
 }
